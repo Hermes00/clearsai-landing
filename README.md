@@ -1,29 +1,48 @@
----
+# ClearSAI
 
-## 💼 Adquirí la Licencia Profesional
+Bienvenido a **ClearSAI**, una API inteligente para análisis y gestión de datos ambientales.
 
-ClearSAI es una API inteligente que detecta texto y elementos visuales desde imágenes.  
-Ideal para desarrolladores, empresas y proyectos de innovación.
-
-### 🎁 Con la licencia comercial obtenés:
-
-- ✅ Permiso legal para uso en productos comerciales
-- 🚀 Acceso a futuras actualizaciones
-- 🛠️ Soporte por correo electrónico
-- 🔒 Tranquilidad legal con respaldo del autor
+🛡️ API desarrollada por **Hermes Lavallén**  
+📞 Contacto: +54 9 341 594-4886  
+📧 Email: lavallenster@gmail.com  
 
 ---
 
-### 💳 Métodos de pago
+## 🚀 Objetivo
 
-🇦🇷 **MercadoPago (Argentina – pesos ARS)**  
-[👉 Comprar ahora](https://mpago.li/14WX2Rc)
+ClearSAI busca simplificar el acceso a datos ambientales usando tecnologías de vanguardia para facilitar el análisis, la toma de decisiones y el desarrollo de soluciones sostenibles.
 
-🌎 **PayPal (USD 149)**  
-[👉 Comprar ahora con PayPal](https://www.paypal.me/hermeslavallen/149)
+## 🛠️ Tecnologías
+
+- Python
+- FastAPI
+- PostgreSQL
+- SQLAlchemy
+
+## 🧾 Licencia
+
+Este proyecto está protegido bajo una **licencia comercial**.  
+Para adquirir una licencia, hacé clic en uno de los botones de pago.
 
 ---
 
-📧 **Contacto**: lavallenster@gmail.com  
-📞 **WhatsApp**: +54 9 341 594-4886  
-🛡️ API desarrollada por **Hermes Lavallén**
+## 💳 Adquirí tu licencia
+
+**Licencia mensual**  
+🔹 $8000 ARS → [Pagar con MercadoPago](https://mpago.li/14WX2Rc)  
+🔹 $9 USD → [Pagar con PayPal](https://www.paypal.me/hermeslavallen/149)
+
+Incluye:
+- Acceso completo a la API
+- Soporte técnico por email
+- Actualizaciones mensuales
+
+---
+
+### 🌐 ¿Querés ver la demo?
+
+Accedé a la versión pública desde [ClearSAI GitHub Pages](https://hermeslavallen.github.io/clearsai-landing)
+
+---
+
+© 2025 Hermes Lavallén – Todos los derechos reservados.
