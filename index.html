@@ -1,53 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ClearSAI - API de Detección de Contenido Sensible</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ClearSAI - Moderación Ética de Contenidos con IA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f6f9fc;
+      margin: 0;
+      padding: 2rem;
+      color: #333;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    ul {
+      padding-left: 1.2em;
+    }
+    .buttons {
+      margin: 2rem 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .buttons a {
+      text-align: center;
+      text-decoration: none;
+      padding: 1rem;
+      border-radius: 8px;
+      font-weight: bold;
+      color: white;
+    }
+    .mercado {
+      background: #00b386;
+    }
+    .paypal {
+      background: #0070ba;
+    }
+    .footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #ccc;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>ClearSAI</h1>
-        <p><strong>API de Detección de Contenido Sensible en Imágenes</strong></p>
-        <p>Creado por Hermes Lavallén</p>
-        <p>Licencia: MIT</p>
-        <p>¿Querés integrar ClearSAI en tu producto?</p>
-        <a href="mailto:lavallenster@gmail.com">📩 Contactame por mail</a><br>
-        <a href="https://wa.me/5493415944886">💬 Contactame por WhatsApp</a>
-        <p class="small">© 2025 Hermes Lavallén</p>
+  <div class="container">
+    <h1>ClearSAI - Moderación Ética de Contenidos con IA</h1>
+
+    <h2>🎯 ¿Qué es ClearSAI?</h2>
+    <p>ClearSAI es una API pensada para detectar, moderar y disuadir el uso de inteligencia artificial para la creación y difusión de contenidos pornográficos, deepfakes o materiales explícitos no consentidos.</p>
+
+    <h2>🧠 ¿Qué hace?</h2>
+    <ul>
+      <li>🔍 Detección de contenido sensible mediante visión por computadora y procesamiento de lenguaje natural.</li>
+      <li>🛑 Disuasión con alertas éticas y educativas para los usuarios.</li>
+      <li>📊 Panel de reportes para análisis y posibles escaladas.</li>
+      <li>🧩 Integración como API en otras plataformas generativas o sociales.</li>
+    </ul>
+
+    <h2>🧑‍⚖️ Enfoque ético</h2>
+    <ul>
+      <li>Supervisión humana opcional para casos límite.</li>
+      <li>Cumplimiento legal internacional.</li>
+      <li>Transparencia total en modelos y datos.</li>
+    </ul>
+
+    <h2>⚙️ Tecnologías utilizadas</h2>
+    <ul>
+      <li>Python (FastAPI)</li>
+      <li>OpenCV, YOLOv5</li>
+      <li>BERT / Transformers</li>
+      <li>AWS Rekognition, Google Vision</li>
+      <li>Docker (opcional)</li>
+    </ul>
+
+    <h2>🌐 ¿Dónde se puede usar?</h2>
+    <ul>
+      <li>Plataformas de generación de imágenes/videos.</li>
+      <li>Redes sociales o foros.</li>
+      <li>Proyectos educativos y gubernamentales.</li>
+    </ul>
+
+    <h2>💰 Comprar licencia</h2>
+    <p>Adquirí tu licencia para uso comercial o institucional:</p>
+    <div class="buttons">
+      <a class="mercado" href="https://mpago.li/14WX2Rc" target="_blank">💵 Pagar $160.000 ARS con Mercado Pago</a>
+      <a class="paypal" href="https://www.paypal.me/hermeslavallen/149" target="_blank">💲 Pagar USD 149 con PayPal</a>
     </div>
-    <footer style="text-align: center; margin-top: 40px; font-size: 0.9em; color: #666;">
-  🛡️ API desarrollada por <strong>Hermes Lavallén</strong><br>
-  📞 Contacto: +54 9 341 594-4886<br>
-  📧 Email: <a href="mailto:lavallenster@gmail.com">lavallenster@gmail.com</a>
-        <section id="licencia" style="text-align: center; margin: 60px auto; max-width: 700px;">
-  <h2>💼 Adquirí la Licencia Profesional</h2>
-  <p>ClearSAI es una API inteligente que detecta texto y elementos visuales desde imágenes. Ideal para desarrolladores, empresas y proyectos de innovación.</p>
-  <p>Comprá la licencia de uso comercial y obtené:</p>
-  <ul style="text-align: left; display: inline-block;">
-    <li>✅ Permiso legal para uso en productos comerciales</li>
-    <li>🚀 Acceso a actualizaciones futuras</li>
-    <li>🛠️ Soporte por correo electrónico</li>
-    <li>🔒 Tranquilidad legal con respaldo del autor</li>
-  </ul>
 
-  <h3 style="margin-top: 30px;">💳 Elegí tu método de pago:</h3>
-
-  <a href="https://mpago.li/14WX2Rc" target="_blank" style="margin: 10px;">
-    <img src="https://logoeps.com/wp-content/uploads/2014/09/mercado-pago-logo-vector.png" alt="Pagar con MercadoPago" width="180">
-  </a>
-
-  <a href="https://www.paypal.me/hermeslavallen/149" target="_blank" style="margin: 10px;">
-    <img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_111x69.jpg" alt="Pagar con PayPal" width="180">
-  </a>
-
-  <p style="margin-top: 30px;">
-    🛡️ API desarrollada por <strong>Hermes Lavallén</strong><br>
-    📞 +54 9 341 594-4886<br>
-    📧 <a href="mailto:lavallenster@gmail.com">lavallenster@gmail.com</a>
-  </p>
-</section>
-</footer>
+    <div class="footer">
+      🛡️ API desarrollada por <strong>Hermes Lavallén</strong><br/>
+      📞 Contacto: +54 9 341 594-4886<br/>
+      📧 Email: lavallenster@gmail.com
+    </div>
+  </div>
 </body>
 </html>
